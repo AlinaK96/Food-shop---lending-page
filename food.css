@@ -1,0 +1,802 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 10447px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.mainFont{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+header{
+    position: absolute;
+    height: 72px;
+    left: 0%;
+    right: 0%;
+    top: 40px;
+}
+
+nav{
+    position: absolute;
+    height: 72px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 0px;
+
+}
+
+.mainMenu{
+    position: absolute;
+    height: 72px;
+    left: 0%;
+    right: 37.38%;
+}
+
+.mainMenu img{
+    position: absolute;
+    top: 9px;
+}
+
+#navigation{
+    position: absolute;
+    height: 72px;
+    width: 664.21875px;
+    left: 200px;
+    top: 0px;
+    display: flex; 
+    justify-content: space-evenly;  
+}
+
+.main{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    color: #274C5B;
+    margin-top: 20px;
+}
+
+.mainMenu a {
+    text-decoration: none;
+
+}
+
+.main:hover, .active{
+    color: #7EB693;
+}
+
+.chart{
+    position: absolute;
+    height: 70px;
+    width: 159px;
+    left: 1122px;
+    top: 0px;
+    border-radius: 33px;
+
+
+    border: 1px solid #D4D4D4;
+    border-radius: 33px;
+}
+
+.chart img{
+    height: 56px;
+    width: 56px;
+    left: 11px;
+    top: 7px;
+    border-radius: 0px;
+
+}
+
+.chart p{
+    position: relative;
+    height: 29px;
+    width: 35px;
+    top: 20px;
+    left: 77px;
+    margin: 0px;
+}
+
+.chart div{
+    position: relative;
+    height: 18px;
+    width: 22px;
+    left: 113px;
+    border-radius: 0px;
+    border: 1px solid #274C5B;
+    top: -4px;
+    margin: 0px;
+    color: #274C5B;
+    text-align: center;
+}
+
+.mainPage img{
+    position: absolute;
+    height: 913px;
+    width: 1440px;
+    top: 152px;
+}
+
+.mainPage p{
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    height: 65px;
+    width: 241px;
+
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7EB693;
+}
+
+.mainPage span{
+    position: absolute;
+    width: 496px;
+    left: 30px;
+    top: 399px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+
+    letter-spacing: 0.36px;
+
+    color: #274C5B;
+}
+
+.Button{
+    position: absolute;
+    height: 82px;
+    width: 219px;
+    left: 30px;
+    top: 751px;
+    border-radius: 16px;
+
+    background: #EFD372;
+    border: 1px solid #EFD372;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;	
+}
+
+.Button:hover{
+    font-size: 25px;
+}
+
+.container{
+    position: absolute;
+    height: 378px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 1205px;
+}
+
+.container p{
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    top: 105px;
+    height: 65px;
+    margin: 0px;
+}
+
+.container span{
+    height: 52px;
+    top: 169px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+    letter-spacing: 0.36px;
+}
+
+.left{
+    position: absolute;
+    height: 378px;
+    width: 665px;
+    margin: 0px;
+
+}
+
+.left p{
+    position: absolute;
+    left: 8.27%;
+    right: 72.78%;
+
+    color: #FFFFFF;
+}
+
+.left span{
+    width: 215px;
+    position: absolute;
+    left: 8.27%;
+    right: 60.6%;
+    color: #FFFFFF;
+}
+
+.right{
+    position: absolute;
+    height: 378px;
+    left: 51.81%;
+    right: 0%;
+    top: 0px;
+}
+
+.right p{
+    position: absolute;
+    left: 8.27%;
+    right: 76.54%;
+    color: #7EB693;
+}
+
+.right span{
+    position: absolute;
+    width: 258px;
+    left: 8.27%;
+    right: 59.55%;
+    color: #274C5B;
+}
+
+.aboutUs{
+    position: absolute;
+    height: 1006px;
+    left: 0%;
+    right: 0%;
+    top: 1723px;
+    background-color: #F9F8F8;
+}
+
+.content{
+    position: absolute;
+    height: 736px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 130px;
+}
+
+.content img{
+    position: absolute;
+    height: 642px;
+    left: 0%;
+    right: 51.09%;
+    top: calc(50% - 642px/2);
+}
+
+#aboutUsLeft{
+    position: absolute;
+    height: 736px;
+    left: 51.09%;
+    right: 0%;
+    top: 0px;
+}
+
+.us{
+    position: absolute;
+    height: 326px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    font-style: normal;
+    letter-spacing: 0.36px;
+}
+
+.us h3{
+    position: absolute;
+    height: 65px;
+    right: 81.93%;
+    margin: 0px;
+
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    text-transform: capitalize;
+    color: #7EB693;
+}
+
+.us span{
+    position: absolute;
+    height: 59px;
+    top: 63px;
+    width: 521px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #274C5B;
+}
+
+.us p{
+    position: absolute;
+    height: 326px;
+    margin: 0px;
+
+    height: 98px;
+    top: 202px;
+    right: 0.74%;
+
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #525C60;
+}
+
+#Standarts{
+    position: absolute;
+    height: 238px;
+    left: 0%;
+    right: 0%;
+    top: 356px;
+}
+
+#Standarts h3{
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0px;
+    
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+#Standarts span{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    letter-spacing: 0.36px;
+    color: #525C60;
+    text-align: left;
+    height: 65px;
+    width: 539px;
+    left: 120px;
+    top: 44px;
+}
+
+#Standarts img{
+    height: 55px;
+    width: 55px;
+    left: 31px;
+    top: 29px;
+    position: absolute;
+}
+
+.first{
+    position: absolute;
+    height: 104px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+.second{
+    position: absolute;
+    height: 104px;
+    left: 0%;
+    right: 0%;
+    top: 105px;
+}
+
+.OurProducts{
+    position: absolute;
+    height: 1381.09375px;
+    width: 1440px;
+    left: 0px;
+    top: 2849px;
+}
+
+.testimonial{
+    position: absolute;
+    height: 1248px;
+    width: 1440px;
+    top: 4350px;
+    background-image: url(./images/testimonial.png)
+}
+
+.TestimonialContent{
+    position: absolute;
+    height: 967.69px;
+    width: 1440px;
+    top: 130.09px;
+}
+
+.TestHeader{
+    position: absolute;
+    height: 122px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 0px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+
+.TestHeader p{
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    color: #7EB693;
+    margin: 0px;
+}
+
+.TestHeader span{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    color: #274C5B;
+}
+
+.Feedback{
+    position: absolute;
+    height: 353.69px;
+    left: 11.81%;
+    right: 11.81%;
+    top: 182px;
+}
+
+.Feedback img{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 493px;
+}
+
+#starts{
+    height: 27px;
+    width: 123px;
+    left: 489px;
+    top: 132.90625px;
+}
+
+#customer{
+    position: absolute;
+    height: 149px;
+    width: 1100px;
+    top: 189.6875px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    text-align: center;
+    color: #525C60;
+}
+
+#customer p:first-child{
+    position: absolute;
+    width: 942px;
+    height: 33px;
+    left: 79px;
+    top: 0.22px;
+    margin: 0px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#customer p:last-child{
+    position: absolute;
+    width: 73px;
+    height: 27px;
+    left: calc(50% - 73px/2 + 0.5px);
+    top: 121.22px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+#customer span{
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    left: calc(50% - 135px/2 + 0.5px);
+    top: 88.22px;
+    margin: 0px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+
+    color: #274C5B;
+}
+
+.line{
+    position: absolute;
+    height: 2px;
+    left: 16.46%;
+    right: 16.46%;
+    top: 400px;
+
+    background: #E0E0E0;
+    border-radius: 0px;
+}
+
+.bubbles{
+    position: absolute;
+    width: 1140px;
+    height: 250px;
+    top: 533px;
+    display: flex;
+}
+
+.bubbles div{  
+    width: 250px;
+    height: 250px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+    box-sizing: border-box;
+}
+
+.Circle{
+    background: #F1F1F1;
+    border: 6px solid #7EB693;
+    border-radius: 200px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    font-weight: 700;
+}
+
+.Circle span{
+    position: relative;
+    width: 105px;
+    height: 55px;
+    left: 6px;
+    top: 81px;
+    margin: 0px;
+
+    font-family: 'Roboto';
+    font-size: 42px;
+    line-height: 55px;
+}
+
+.Circle p{
+    position: relative;
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 32px;
+    top: 80px;
+}
+
+.offer{
+    position: absolute;
+    height: 1060px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    top: 5598px;
+    background: #274C5B;
+}
+
+#offerBody{
+    position: absolute;
+    height: 779.55px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 139.78px;
+}
+
+#offerHeader{
+    position: absolute;
+    height: 170px;
+    width: 1380px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+#offerHeader p{
+    position: absolute;
+    height: 65px;
+    right: 69.79%;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+
+    color: #7EB693;
+}
+
+#offerHeader span{
+    position: absolute;
+    height: 59px;
+    top: 63.22px;
+    left: 0px;
+    margin: 0px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+#offerHeader div{
+    position: absolute;
+    height: 82px;
+    width: 267px;
+    left: 79.93%;
+    right: 0.72%;
+    top: 44.22px;
+    padding-top: 25px;
+    box-sizing: border-box;
+
+    border-radius: 16px;
+    background: #EFD372;
+    border: 1px solid #EFD372;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+#offerHeader a:link, #offerHeader a:link:visited{
+    text-decoration: none;
+    color: #274C5B;
+}
+
+#offerHeader a:link:hover{
+    text-decoration: none;
+    color: #274C5B;
+    font-size: 24px;
+}
+
+.offerFood{
+    position: absolute;
+    height: 609.55px;
+    left: -0.72%;
+    right: -0.72%;
+    top: 170px;
+    display: flex;
+}
+
+.offerFood > div{
+    height: 590px;
+    width: 447px;
+    top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background: #F9F8F8;
+    border-radius: 30px;
+}
+
+.category{
+    position: relative;
+    height: 37px;
+    width: 118px;
+    top: 34px;
+    left: 30px;
+    padding-top: 4px;
+
+    border-radius: 8px;
+    background: #274C5B;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.photoProduct{
+    position: relative;
+    height: 378px;
+    width: 387px;
+    left: 30px;
+    top: 40px;
+
+}
+
+.ProductInfo{
+    position: relative;
+    height: 105px;
+    width: 386px;
+    left: 6.71%;
+    right: 6.79%;
+    top: 19px;
+}
+
+.ProductInfo p{
+    margin: 0px;
+    position: absolute;
+    height: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 35px;
+
+    letter-spacing: 0.36px;
+    color: #274C5B;
+}
+
+.price{
+    position: absolute;
+    height: 49px;
+    width: 386px;
+    top: 56px;
+    font-family: 'Open Sans';
+    letter-spacing: 0.36px;
+}
+
+.price p{
+    margin: 0px;
+    height: 33px;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    text-decoration-line: line-through;
+
+    color: #B8B8B8;
+}
+
+.price span{
+    margin: 0px;
+    position: absolute;
+    height: 33px;
+    left: 115px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #274C5B;
+}
+
+.price img{
+    position: absolute;
+    height: 19px;
+    width: 85px;
+    left: 302px;
+    top: 8.671875px;
+}
