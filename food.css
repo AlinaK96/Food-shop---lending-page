@@ -1,7 +1,7 @@
 body{
     position: relative;
     width: 1440px;
-    height: 10447px;
+    height: 9500px;
     background: #FFFFFF;
     margin: auto;
 }
@@ -10,7 +10,7 @@ body{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 29px;
     
     letter-spacing: 0.36px;
@@ -78,7 +78,7 @@ nav{
 .chart{
     position: absolute;
     height: 70px;
-    width: 159px;
+    width: 165px;
     left: 1122px;
     top: 0px;
     border-radius: 33px;
@@ -91,7 +91,7 @@ nav{
 .chart img{
     height: 56px;
     width: 56px;
-    left: 11px;
+    left: 9px;
     top: 7px;
     border-radius: 0px;
 
@@ -102,7 +102,7 @@ nav{
     height: 29px;
     width: 35px;
     top: 20px;
-    left: 77px;
+    left: 72px;
     margin: 0px;
 }
 
@@ -110,7 +110,7 @@ nav{
     position: relative;
     height: 18px;
     width: 22px;
-    left: 113px;
+    left: 118px;
     border-radius: 0px;
     border: 1px solid #274C5B;
     top: -4px;
@@ -123,7 +123,7 @@ nav{
     position: absolute;
     height: 913px;
     width: 1440px;
-    top: 152px;
+    top: 120px;
 }
 
 .mainPage p{
@@ -177,14 +177,16 @@ nav{
 
 .Button:hover{
     font-size: 25px;
+    text-decoration: none;
 }
+
 
 .container{
     position: absolute;
     height: 378px;
     left: 2.08%;
     right: 2.08%;
-    top: 1205px;
+    top: 1120px;
 }
 
 .container p{
@@ -264,7 +266,7 @@ nav{
     height: 1006px;
     left: 0%;
     right: 0%;
-    top: 1723px;
+    top: 1580px;
     background-color: #F9F8F8;
 }
 
@@ -412,17 +414,169 @@ nav{
 
 .OurProducts{
     position: absolute;
-    height: 1381.09375px;
+    height: 1381px;
     width: 1440px;
     left: 0px;
-    top: 2849px;
+    top: 2650px;
+        
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.ProductsHeader p{
+    position: absolute;
+    width: 105px;
+    height: 65px;
+    left: 638px;
+    top: 0px;
+    margin: 0px;
+    
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    color: #7EB693;
+    text-align: center;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+
+}
+
+.ProductsHeader span{
+    position: absolute;
+    width: 285px;
+    height: 59px;
+    left: calc(50% - 285px/2 - 0.5px);
+    top: 61px;
+    margin: 0px;
+    
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    color: #274C5B;
+}
+
+
+.ProductsHeader{
+    position: relative;
+    width: 1380px;
+    height: 122px;
+}
+
+.ProductContent{
+    position: absolute;
+    height: 1219.09px;
+    left: 1.39%;
+    right: 1.39%;
+    top: 162px;
+    display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*рамка продукта*/
+.ProductDisplay{   
+    position: relative;
+    height: 590px;
+    width: 447px;
+    left: 0px;
+    top: 0px;
+    border-radius: 30px;
+
+    background: #F9F8F8;
+    border-radius: 30px;
+} 
+
+hr{
+    position: absolute;
+height: 1px;
+left: 0%;
+right: 0%;
+top: 44px;
+
+background: #D4D4D4;
+}
+.ProductClass{
+    position: absolute;
+    height: 37px;
+    width: 118px;
+    left: 30px;
+    top: 30px;
+    background: #274C5B;
+    padding-top: 5px;
+    border-radius: 8px;
+
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+
+}
+
+.ProductDisplay img{
+    position: absolute;
+    height: 378px;
+    top: 74px;
+    left: 30px;
+}
+
+.ProductPrice{
+    position: absolute;
+    height: 105px;
+    left: 6.71%;
+    right: 6.79%;
+    top: 464.55px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    font-style: normal;
+}
+
+.ProductPrice p{
+    position: absolute;
+    height: 36px;
+    width: 387px;
+    left: 0px;
+    top: -1px;
+    margin: 0px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #274C5B;
+    text-align: left;
+
+}
+
+.newPrice{
+    position: relative;
+    position: absolute;
+    height: 33px;
+    left: 115px;
+    top: 0px;
+
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+
+    letter-spacing: 0.36px;
+    color: #274C5B;
 }
 
 .testimonial{
     position: absolute;
     height: 1248px;
     width: 1440px;
-    top: 4350px;
+    top: 4150px;
     background-image: url(./images/testimonial.png)
 }
 
@@ -604,7 +758,7 @@ nav{
     width: 1440px;
     left: 0px;
     top: 0px;
-    top: 5598px;
+    top: 5500px;
     background: #274C5B;
 }
 
@@ -664,27 +818,6 @@ nav{
     top: 44.22px;
     padding-top: 25px;
     box-sizing: border-box;
-
-    border-radius: 16px;
-    background: #EFD372;
-    border: 1px solid #EFD372;
-
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-}
-
-#offerHeader a:link, #offerHeader a:link:visited{
-    text-decoration: none;
-    color: #274C5B;
-}
-
-#offerHeader a:link:hover{
-    text-decoration: none;
-    color: #274C5B;
-    font-size: 24px;
 }
 
 .offerFood{
@@ -799,4 +932,735 @@ nav{
     width: 85px;
     left: 302px;
     top: 8.671875px;
+}
+
+#ecoFriendly{
+    position: absolute;
+    height: 704.12px;
+    width: 100%;
+    top: 6560px;
+}
+
+#ecoFriendly img{
+    position: absolute;
+    height: 704px;
+    right: 50%;
+}
+
+.ecoFriendlyText{
+    position: absolute;
+    height: 623px;
+    left: 45.83%;
+    right: 4.17%;
+    top: 40.67px;
+    background: #FFFFFF;
+    border-radius: 30px 0px 0px 30px;
+}
+
+#ecoFriendlyHeader{
+    position: absolute;
+    height: 180px;
+    left: 8.33%;
+    right: 5.56%;
+    top: 39.89px;
+
+    letter-spacing: 0.36px;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+#ecoFriendlyHeader p{
+    margin: 0px;
+    position: absolute;
+    height: 65px;
+    left: 0%;
+    right: 72.9%;
+    top: -0.89px;
+
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    color: #7EB693;
+    
+}
+
+#ecoFriendlyHeader span{
+    margin: 0px;
+    position: absolute;
+    height: 59px;
+    width: 700px;
+    left: 0%;
+    right: 51.45%;
+    top: 63.11px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+
+    color: #274C5B;
+}
+
+#ecoFriendlyInfo{
+    position: absolute;
+    height: 318px;
+    left: 8.33%;
+    right: 5.56%;
+    top: 249.89px;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+
+#ecoFriendlyInfo h3{
+    position: relative;
+    height: 33px;
+    width: 250px;
+    margin: 0px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 23px;
+    color: #274C5B;
+}
+
+#ecoFriendlyInfo p{
+    margin: 0px;
+    position: relative;
+    height: 65px;
+    width: 618px;
+    margin-bottom: 9px;
+
+    font-family: 'Open Sans';
+
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: none;
+
+    color: #525C60;
+}
+
+.navigate{
+    position: absolute;
+    height: 860px;
+    left: 0%;
+    right: 0%;
+    top: 7220px;
+}
+
+.navigateInside{
+    position: absolute;
+    height: 580px;
+    left: 0%;
+    right: 0%;
+    top: 140.45px;
+    display: flex;
+    font-style: normal;     
+    letter-spacing: 0.36px;   
+    line-height: 35px;
+}
+
+.navigateInside > div{
+    position: relative;
+    height: 580px;
+    width: 460px;
+    top: -0.45px;
+    margin-right: 30px;
+}
+
+.navigateInside > div:last-child{
+    margin-right: 0px;
+}
+
+.navigateInside img{
+    height: 580px;
+    width: 460px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+.navigateButton{
+    position: absolute;
+    height: 95px;
+    width: 281px;
+    left: 90px;
+    top: 243px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.navigateButton p {
+    margin: 0px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+
+    text-align: center;
+    color: #274C5B;
+}
+
+.navigateInside a:link, .navigateInside a:link:visited {
+    text-decoration: none;
+}
+
+.navigateInside > div a:link:hover{
+    opacity: 85%;
+}
+
+
+.news{
+    position: absolute;
+    height: 885.38px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 8010px;
+}
+
+.newsHeader{
+    height: 210px;
+    width: 1380px;
+    left: 0px;
+    top: 0px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    font-style: normal;
+
+}
+
+.newsHeader p{
+    margin: 0px;
+    position: absolute;
+    height: 65px;
+    top: -0.45px;
+
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 65px;
+
+    color: #7EB693;
+}
+
+.newsHeader span{
+    margin: 0px;
+    position: absolute;
+    height: 59px;
+    left: 0%;
+    top: 65.55px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    color: #274C5B;
+}
+
+#newsButton{
+    box-sizing: border-box;
+    position: absolute;
+    height: 82px;
+    width: 210px;
+    left: 1160px;
+    top: 64px;
+
+    background: #FFFFFF;
+    border: 1px solid #274C5B;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #274C5B;
+}
+
+#linknews, #linknews:visited{
+    text-decoration: none;
+    color: #525C60;
+}
+
+#linknews:hover{
+
+    font-size: 26px;
+}
+
+.newsContent{
+    position: absolute;
+    height: 635.38px;
+    left: -0.72%;
+    right: -0.72%;
+    top: 249.55px;
+    display: flex;
+
+}
+
+.newsContentImg{
+    position: relative;
+    height: 515px;
+    width: 670px;
+    top: 1.55px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.newsContentImg:last-child{
+    margin-right: 0px;
+}
+
+.newsInfo{
+    position: absolute;
+    height: 337px;
+    left: 4.48%;
+    right: 4.48%;
+    top: 250px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.14);
+    border-radius: 30px;
+    font-style: normal;
+    letter-spacing: 0.36px;
+}
+
+.newsInfoHeader{
+    position: absolute;
+    height: 26px;
+    left: 8.2%;
+    right: 8.2%;
+    top: 50.2px;
+
+}
+
+.newsInfoHeader img{
+    float: left;
+    margin-right: 10px;
+    height: 20px;
+    width: 18px;
+}
+
+.newsInfoHeader p{
+    margin: 0px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #274C5B;
+}
+
+.newsInfoBody{
+    position: absolute;
+    height: 153px;
+    left: 8.2%;
+    right: 8.2%;
+    top: 86.2px;
+    letter-spacing: 0.36px;
+    font-style: normal;
+}
+
+.newsInfoBody h3{
+    height: 35px;
+    width: 512px;
+    top: 2px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: #274C5B;
+}
+
+.newsInfoBody p{
+    position: absolute;
+    height: 65px;
+    right: 13.33%;
+    top: 75.8px;
+    margin: 0px;
+    
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #525C60;
+}
+
+.newsInfoButton{
+    position: absolute;
+    height: 48px;
+    width: 150px;
+    left: 50px;
+    top: 239.2px;
+    letter-spacing: 0.36px;
+    font-family: 'Roboto';
+}
+
+.newsInfoButton p{
+    float: left;
+    margin: 10px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #274C5B;
+}
+
+.newsInfoButton img{
+    position: relative;
+    height: 19px;
+    width: 19px;
+    left: 10px;
+    top: 16px;
+}
+
+.Subscribe{
+    position: absolute;
+    height: 320px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 8940px;
+    background-image: url(./images/subscribe.png);
+
+}
+
+.SubscribeContent{
+    position: absolute;
+    height: 120px;
+    left: 5.07%;
+    right: 5.07%;
+    top: 99.83px;
+}
+
+#SubscribeText{
+    position: absolute;
+    height: 120px;
+    left: 0%;
+    right: 73.98%;
+    top: 0px;
+    position: absolute;
+    position: absolute;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+#SubscribeLink{
+    position: absolute;
+    height: 102px;
+    left: 54.24%;
+    right: 0%;
+    top: 9px;
+}
+
+#SubscribeInput{
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 82px;
+    left: 0.07%;
+    top: 11px;
+    padding-left: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+}
+
+input {
+    outline:none;
+    font-size: 20px;
+    color: #525C60;
+}
+
+#SubscribeButton{
+    box-sizing: border-box;
+    position: absolute;
+    padding-top: 26px;
+    width: 197px;
+    height: 82px;
+    left: 360px;
+    top: 11px;
+
+    background: #274C5B;
+    border: 1px solid #274C5B;
+    border-radius: 16px;
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+}
+
+#SubscribeButton:hover{
+    font-size: 24px;
+}
+
+footer{
+    position: absolute;
+    height: 630px;
+    left: 0%;
+    right: 0%;
+    top: 9210px;
+}
+
+.footerTop{
+    position: absolute;
+    height: 469px;
+    left: 0%;
+    right: 0%;
+    top: 132.17px;
+    text-align: right;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    font-style: normal;
+}
+
+.footerContent{
+    position: absolute;
+    height: 369px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 0.03px;
+}
+
+#contactUS{
+    position: absolute;
+    height: 369px;
+    left: 4.75%;
+    width: 270px;
+    top: 0px;
+}
+
+#contactUS h3{
+    position: absolute;
+    width: 152px;
+    height: 42px;
+    right: 0px;
+    margin: 0px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+
+}
+
+.ContactData{
+    font-family: 'Open Sans';
+    font-style: normal;
+    text-align: right;
+    letter-spacing: 0.36px;
+    color: #525C60;
+    font-size: 18px;
+}
+
+.ContactData div{
+    position: relative;
+    height: 60px;
+    left: 0%;
+    right: 0%;
+    top: 77px;
+    margin-bottom: 38px;
+}
+
+.ContactData h4{
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    right: 0px;
+    top: -1.03px;
+    margin: 0px;
+
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.ContactData p{
+    margin: 0px;
+    position: absolute;
+    width: 269px;
+    height: 33px;
+    right: 0px;
+    top: 27.97px;
+
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.FooterOrganic{
+    position: absolute;
+    height: 369px;
+    left: 25.72%;
+    right: 25.72%;
+    top: -0.03px;
+    border-left: 2px solid #D5D5D5;
+    border-right: 2px solid #D5D5D5;
+}
+
+.FooterOrganic img{
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    left: 235px;
+}
+
+.socialMedia{
+    position: absolute;
+    height: 70px;
+    left: 6.12%;
+    right: 6.12%;
+    top: 215.03px;
+    display: flex;
+}
+
+.CM{
+    position: relative;
+    width: 60px;
+    height: 60px; 
+    top: 9.9px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.CM img{
+    height: 21px;
+    width: 21px;
+    left: 20px;
+    top: 20px;
+}
+
+.CM:first-child{
+    margin-left: 144px;
+}
+
+.CM div{
+    position: absolute;
+    height: 60px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #EFF6F1;
+    border-radius: 100px;
+}
+
+.FooterOrganic span{
+    position: absolute;
+    width: 567px;
+    height: 65px;
+    left: 52px;
+    top: 100px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #525C60;
+
+}
+
+.FooterPages{
+    position: absolute;
+    height: 369px;
+    left: 75.72%;
+    right: 0%;
+    top: 0px;
+}
+
+.FooterPages h3{
+    position: absolute;
+    height: 42px;
+    left: 0%;
+    right: 47.76%;
+    margin: 0px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.FooterPagesLinks{
+    position: absolute;
+    height: 240px;
+    left: 0%;
+    right: 0%;
+    top: 62px;
+}
+
+.FooterPagesLinks span{
+    position: relative;
+    display: block;
+    height: 29px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.footerLink{
+    text-decoration: none;
+    color: #525C60
+}
+
+.footerLink:hover{
+    font-weight: 900;
+}
+
+.footerBottom{
+    position: absolute;
+    height: 81px;
+    left: 0%;
+    right: 0%;
+    top: 560px;
+    border-top: 2px solid #D5D5D5;
+}
+
+#footerBottomText{
+    position: absolute;
+    height: 32px;
+    left: 2.08%;
+    right: 2.08%;
+    top: 20.83px;
+}
+
+#footerBottomText p{
+    margin: 0px;
+    position: absolute;
+    height: 33px;
+    top: 0.17px;
+    left: 372px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    letter-spacing: 0.36px;
+    color: #525C60;
 }
