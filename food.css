@@ -144,18 +144,22 @@ nav{
     color: #7EB693;
 }
 
-.mainPage span{
+.WelcomeText{
     position: absolute;
+    top: 380px;
     width: 496px;
+    height: 252px;
     left: 30px;
-    top: 399px;
+}
+
+.WelcomeText span{
+    position: absolute;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
 
     letter-spacing: 0.36px;
-
     color: #274C5B;
 }
 
@@ -318,10 +322,16 @@ nav{
     color: #7EB693;
 }
 
-.us span{
+.ContentBelieve{
+    position: absolute;
+    top: 65px;
+    width: 496px;
+    height: 118px;
+}
+
+.ContentBelieve span{
     position: absolute;
     height: 59px;
-    top: 63px;
     width: 521px;
 
     font-family: 'Roboto';
